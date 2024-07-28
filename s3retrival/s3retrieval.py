@@ -8,7 +8,7 @@ import threading
 from os import path
 from tqdm import tqdm
 from botocore.exceptions import ClientError, ParamValidationError
-ROLE_ARN = "arn:aws:iam::238711425082:role/OrganizationAccountAccessRole"
+ROLE_ARN = ""
 ​
 def setup_logger(logfile):
     logger = logging.getLogger('s3_restore')
