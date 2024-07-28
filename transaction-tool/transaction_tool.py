@@ -12,7 +12,7 @@ from psycopg2 import sql
 from psycopg2 import OperationalError, Error, DatabaseError, InterfaceError
 
 ## CONFIGURATION
-env = 'app.docker.zonkej.cz'
+env = ''
 username = 'username'
 
 ## DOCKER COMMANDS
