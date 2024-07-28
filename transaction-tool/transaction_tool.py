@@ -51,7 +51,7 @@ def load_scripts(filepath, logger):
     logger.info(filepath.lstrip('/') +  f" script file loaded from:\npath: {full_path}\n")
     return loaded_file.split(';')
 
-def db_setup(logger, port=5432, user='p2p', passw='p2p', db='p2p'):
+def db_setup(logger, port=, user='', passw='', db=''):
     ''' All parameters required to successfully set up a db connection are default arguments of this function.
     So they are not necessarily entered as parameters of the function call. The exception is the logger object,
     that is the prerequisites for successful execution of db_setup.'''
